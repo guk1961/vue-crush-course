@@ -7,6 +7,7 @@
       </span>
       <button class="rm" v-on:click="$emit('remove-todo', todo.id)">&times;</button>
     </li>
+    
 </template>
 
 <script>

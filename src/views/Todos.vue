@@ -65,7 +65,8 @@ export default {
       this.todos = this.todos.filter(t=> t.id!==id)
     },
     addTodo(todo) {
-      this.todos.push(todo)
+//      this.todos.push(todo)
+        this.todos = [...this.todos, todo];
     }
   },
   components: {
